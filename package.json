@@ -1,0 +1,20 @@
+{
+  "name": "ngrok_omos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "ngrok": "node ngrok.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "ngrok": "^4.0.1"
+  }
+}
